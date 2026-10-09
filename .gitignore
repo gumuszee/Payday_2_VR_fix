@@ -1,6 +1,10 @@
 build/
 logs/
+frames/
 *.obj
 *.exp
 *.lib
 *.pdb
+/PaydayVR_Fixed.exe
+/hook/hook.dll
+/dist/

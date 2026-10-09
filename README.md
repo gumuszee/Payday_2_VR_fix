@@ -22,12 +22,13 @@ lens shift and rendering are untouched. **No game file is modified** – the pat
 
 ## Install & use
 
-1. Download this repository (Code → Download ZIP, or `git clone`) and unzip it anywhere. Keep the files together:
+1. Download `PaydayVR_Fix-v1.0.zip` from the [latest release](../../releases/latest) and unzip it anywhere. Keep the files together:
    ```
    PaydayVR_Fixed.exe
    hook.ini
    hook\hook.dll
    ```
+   (Or build it yourself, see below.)
 2. Start SteamVR / connect your headset as usual, and close PAYDAY 2 if it is running.
 3. Pick **one** of the two ways to launch:
 
@@ -77,6 +78,8 @@ build.bat
 ```
 
 It produces `hook\hook.dll` and `PaydayVR_Fixed.exe` (statically linked, no runtime installer needed).
+
+Released under the [MIT License](LICENSE).
 
 | file | purpose |
 |---|---|
